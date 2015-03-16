@@ -212,7 +212,14 @@ switch (_code) do
 				_veh setVariable["siren",true,true];
 				if(playerSide == west) then 
 				{
-					[[_veh],"life_fnc_copSiren",nil,true] spawn life_fnc_MP;
+					if (_shift) then
+					{
+						[[_veh],"life_fnc_copSirenW",nil,true] spawn life_fnc_MP;
+					}
+					else 
+					{
+						[[_veh],"life_fnc_copSiren",nil,true] spawn life_fnc_MP;
+					};
 				}
 				else 
 				{
