@@ -90,14 +90,6 @@ class Life_Client_Core
 		class BJstay {};
 	};
 	
-	class cop_weapons
-	{
-		file = "core\cop\seize";
-		class seizeCfg {};
-		class seizePlayerWeapon {};
-		class seizePlayerWeaponAction {};
-	};
-	
 	class Actions
 	{
 		file = "core\actions";
@@ -329,7 +321,6 @@ class Life_Client_Core
 		class ticketPay {};
 		class ticketPrompt {};
 		class copSiren {};
-		class copSirenW {};
 		class spikeStripEffect {};
 		class radar {};
 		class questionDealer {};
