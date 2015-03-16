@@ -33,7 +33,8 @@ switch (_vehicle) do
 			[_path + "hatchback_01_ext_sport04_co.paa","civ"],
 			[_path + "hatchback_01_ext_sport05_co.paa","civ"],
 			[_path + "hatchback_01_ext_sport06_co.paa","civ"],
-			["textures\cop\met_police_shatchback.paa","cop"]
+			["textures\cop\KavalaCopHatchback.paa","cop"],
+			["textures\cop\AthiraCopHatchback.paa","cop"]
 		];
 	};
 		
@@ -65,8 +66,9 @@ switch (_vehicle) do
 			["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base07_co.paa","civ"],
 			["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base08_co.paa","civ"],
 			["\a3\soft_f_gamma\Hatchback_01\data\hatchback_01_ext_base09_co.paa","civ"],
-			["textures\cop\met_police_shatchback.paa","cop"],
-			["textures\med\paramedic_hb.paa","med"]
+			["textures\cop\KavalaCopHatchback.paa","cop"],
+			["textures\med\paramedic_hb.paa","med"],
+			["textures\cop\AthiraCopHatchback.paa","cop"]
 		];
 	};
 	

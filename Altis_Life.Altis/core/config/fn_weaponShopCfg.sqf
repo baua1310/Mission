@@ -265,19 +265,36 @@ switch(_shop) do
 			{
 				["Rebel Cases",
 					[
-						["arifle_TRG20_F",nil,35000],
-						["arifle_Katiba_F",nil,50000],
+						["NVGoggles_OPFOR",nil,1000],
+						["arifle_TRG20_F",nil,25000],
+						["LMG_Zafir_pointer_F",nil,950000],
+						["150Rnd_762x51_Box",nil,100],
+						["srifle_LRR_SOS_F",nil,1500000],
+						["7Rnd_408_Mag",nil,100],
+						["arifle_Katiba_F",nil,30000],
 						["srifle_DMR_01_F",nil,50000],
-						["arifle_SDAR_F",nil,70000],
+						["arifle_SDAR_F",nil,20000],
+						["SMG_02_F",nil,15000],
+						["SMG_01_F",nil,15000],
+						["srifle_EBR_F",nil,60000],
+						["arifle_Mk20_F",nil,50000],
+						["arifle_MXM_F",nil,50000],
+						["arifle_MXM_Black_F",nil,55000],
 						["optic_ACO_grn",nil,3500],
-						["optic_Holosight",nil,5000],
+						["optic_Holosight",nil,3600],
 						["acc_flashlight",nil,1000],
 						["optic_Hamr",nil,7500],
+						["optic_MRCO",nil,10000],
 						["30Rnd_9x21_Mag",nil,200],
 						["20Rnd_556x45_UW_mag",nil,125],
 						["30Rnd_556x45_Stanag",nil,300],
 						["10Rnd_762x51_Mag",nil,500],
 						["30Rnd_65x39_caseless_green",nil,275],
+						["20Rnd_762x51_Mag",nil,300],
+						["30Rnd_45ACP_Mag_SMG_01",nil,250],
+						["30Rnd_9x21_Mag",nil,250],
+						["30Rnd_556x45_Stanag",nil,300],
+						["30Rnd_65x39_caseless_mag",nil,300],
 						["MiniGrenade","Molotov",2000000]
 					]
 				];
@@ -294,6 +311,32 @@ switch(_shop) do
 			default
 			{
 				["Rabstar's Firearms",
+					[
+						["hgun_Rook40_F",nil,8500],
+						["hgun_Pistol_heavy_02_F",nil,9850],
+						["hgun_ACPC2_F",nil,11500],
+						["hgun_PDW2000_F",nil,20000],
+						["optic_ACO_grn_smg",nil,2500],
+						["V_Rangemaster_belt",nil,4900],
+						["16Rnd_9x21_Mag",nil,25],
+						["9Rnd_45ACP_Mag",nil,45],
+						["6Rnd_45ACP_Cylinder",nil,50],
+						["30Rnd_9x21_Mag",nil,75]
+					]
+				];
+			};
+		};
+	};
+	
+	case "PMC":
+	{
+		switch(true) do
+		{
+			case (playerSide != civilian): {"You are not a civilian!"};
+			case (!license_civ_PMC): {"You are not a PMC Member!"};
+			default
+			{
+				["PMC CORP",
 					[
 						["hgun_Rook40_F",nil,8500],
 						["hgun_Pistol_heavy_02_F",nil,9850],
