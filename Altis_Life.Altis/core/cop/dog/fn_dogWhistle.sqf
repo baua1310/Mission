@@ -18,7 +18,7 @@ _side = side (group _unit);
 
 _group1 = createGroup _side;
 
-_dog = "Alsatian_Sandblack_F" createUnit [_tempPos,_group1,"dog = this", 1.0, "private"];
+_dog = "Alsatian_Random_F" createUnit [_tempPos,_group1,"dog = this", 1.0, "private"];
 
 _unit setvariable ["order","idle"];
 _unit setvariable ["step","go"];

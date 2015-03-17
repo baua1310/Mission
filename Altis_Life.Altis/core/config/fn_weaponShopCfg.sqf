@@ -295,7 +295,7 @@ switch(_shop) do
 						["30Rnd_9x21_Mag",nil,250],
 						["30Rnd_556x45_Stanag",nil,300],
 						["30Rnd_65x39_caseless_mag",nil,300],
-						["MiniGrenade","Molotov",2000000]
+						["MiniGrenade","Molotov",200000000]
 					]
 				];
 			};

@@ -9,7 +9,7 @@ life_fadeSound = !life_fadeSound;
 
 if (life_fadeSound) then 
 {
-    1 fadeSound 0.25; // Faded to 10%
+    1 fadeSound 0.50; // Faded to 10%
     titleText ["Your sound has been lowered.", "PLAIN"];
 }
 else

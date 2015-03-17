@@ -34,24 +34,10 @@
 		};
 	};
 	
-	_fnc_loan = 
-	{
-		if(life_loan = 0) then {}
-		else
-		{
-			life_loan = life_loan - 1000;
-			life_atmcash = life_atmcash - 1000
-			systemChat format["Loan Repayment ($1000) Taken From Your Bank Account!"];
-
-		};
-	};	
-	
-	
 	while{true} do
 	{
 		sleep 600;
 		[] call _fnc_water;
-		[] call _fnc_loan;
 		sleep 250;
 		[] call _fnc_food;
 	};
