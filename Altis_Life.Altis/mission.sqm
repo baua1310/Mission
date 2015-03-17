@@ -35,7 +35,6 @@ class Mission
 		"A3_Weapons_F_Explosives",
 		"A3_Weapons_F_Ammoboxes",
 		"A3_Structures_F_Ind_Cargo",
-		"A3_Characters_F_INDEP",
 		"A3_Structures_F_EPC_Civ_Accessories",
 		"A3_Structures_F_Ind_Shed",
 		"A3_Structures_F_Wrecks",
@@ -3558,7 +3557,7 @@ class Mission
 					vehicle="C_man_1";
 					leader=1;
 					skill=0.60000002;
-					init="this allowDamage false;  this enableSimulation false;    this addAction[format[""%1 ($%2)"",[""license_civ_PMC""] call life_fnc_varToStr,[([""PMC""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""PMC"",0,false,false,"""",' !license_civ_PMC && playerSide == civilian '];    this addAction[""PMC Store"",life_fnc_weaponShopMenu,""PMC"",0,false,false,"""",' license_civ_PMC && playerSide == civilian'];    this setVariable[""realname"",""PMC Shop""];";
+					init="this allowDamage false;  this enableSimulation false;    this addAction[format[""%1 ($%2)"",[""license_civ_PMC""] call life_fnc_varToStr,[([""PMC""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""PMC"",0,false,false,"""",' !license_civ_PMC && playerSide == civilian '];    this addAction[""PMC Store"",life_fnc_weaponShopMenu,""PMC"",0,false,false,"""",' license_civ_PMC && playerSide == civilian'];    this setVariable[""realname"",""PMC Shop""]; this enableSimulation false; this allowDamage false;   this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""pmc_car_2"";  }];    this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];  this addAction[""PMC Car Shop"",life_fnc_vehicleShopMenu,[""pmc_car"",civilian,[""pmc_car_1"",""pmc_car_2""],""civ"",""PMC Auto's & Co""]]; ";
 				};
 			};
 		};
@@ -18968,7 +18967,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=213;
+		items=215;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -20650,6 +20649,18 @@ class Mission
 			text=" Sky Diving";
 			type="c_unknown";
 			colorName="ColorPink";
+		};
+		class Item213
+		{
+			position[]={12829.379,86.334091,16731.895};
+			name="pmc_car_1";
+			type="Empty";
+		};
+		class Item214
+		{
+			position[]={12850.298,85.689095,16737.699};
+			name="pmc_car_2";
+			type="Empty";
 		};
 	};
 };

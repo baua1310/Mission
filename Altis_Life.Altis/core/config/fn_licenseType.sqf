@@ -41,6 +41,7 @@ switch (_mode) do
 			case "mair": {_var = "license_med_air"};
 			case "home": {_var = "license_civ_home"};
 			case "PMC": {_var = "license_civ_PMC"};
+			case "PMC_GRP1": {_var = "license_civ_PMC_GRP1"}; //Group 1 PMC Skins DEBUG LIC
 			default {_var = ""};
 		};
 	};
@@ -74,6 +75,7 @@ switch (_mode) do
 			case "license_med_air": {_var = "mair"};
 			case "license_civ_home": {_var = "home"};
 			case "license_civ_PMC": {_var = "PMC"};
+			case "license_civ_PMC_GRP1": {_var = "PMC_GRP1"}; //Group 1 PMC Skins DEBUG LIC
 			default {_var = ""};
 		};
 	};

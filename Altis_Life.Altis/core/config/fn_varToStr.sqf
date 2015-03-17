@@ -85,4 +85,6 @@ switch (_var) do
 	case "license_civ_cement": {(localize "STR_License_Cement")};
 	case "license_med_air": {(localize "STR_License_Pilot")};
 	case "license_civ_home": {(localize "STR_License_Home")};
+	case "license_civ_PMC": {(localize "STR_License_PMC")}; // Default LIC Only Will Provide Weapons
+	case "license_civ_PMC_GRP1" : {(localize "STR_License_PMC_GRP1")}; // Default LIC Only Will Provide SKINS
 };

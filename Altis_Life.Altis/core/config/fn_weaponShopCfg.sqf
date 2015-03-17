@@ -341,6 +341,7 @@ switch(_shop) do
 						["hgun_Rook40_F",nil,8500],
 						["hgun_Pistol_heavy_02_F",nil,9850],
 						["hgun_ACPC2_F",nil,11500],
+						["I_G_Soldier_lite_F",nil,50000],
 						["hgun_PDW2000_F",nil,20000],
 						["optic_ACO_grn_smg",nil,2500],
 						["V_Rangemaster_belt",nil,4900],

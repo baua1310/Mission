@@ -52,6 +52,12 @@ switch (_vehicle) do
 			["textures\cop\met_police_offroader.paa","cop"],
 			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"]
 		];
+		if(license_civ_PMC_GRP1) then
+		{
+			_ret pushBack
+			["textures\PMC\GRP1\PMC_GRP1_OFFROAD.paa","civ"];
+		};
+		
 	};
 	
 	case "C_Hatchback_01_F":

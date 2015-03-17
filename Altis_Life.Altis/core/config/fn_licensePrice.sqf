@@ -35,5 +35,6 @@ switch (_type) do
 	case "cement": {6500};
 	case "mair": {15000};
 	case "home": {75000};
-	case "PMC": {25000000};
+	case "PMC": {750000000};
+	case "PMC_GRP1" {0}; // The PMC LIC to give certain skins to PMC GROUP 1 NOT purchasable as its debug really
 };

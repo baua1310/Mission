@@ -85,6 +85,19 @@ switch (_shop) do
 		};
 	};
 	
+	case "PMC_car":
+	{		
+		_return =
+		[
+			["B_Quadbike_01_F",2500],
+			["B_G_Offroad_01_F",15000],
+			["O_MRAP_02_F",800000],
+			["B_Heli_Light_01_F",355000],
+			["B_G_Offroad_01_armed_F",750000],
+			["O_Heli_Transport_04_bench_F",1600000]
+		];
+	};
+	
 	case "cop_car":
 	{
 		_return pushBack

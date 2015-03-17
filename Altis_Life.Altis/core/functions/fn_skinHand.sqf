@@ -18,3 +18,11 @@ if(playerSide == independent) then
 		player setObjectTextureGlobal[0,"textures\medic_uniform.paa"];
 	};
 };
+
+if (playerSide == civilian) then 
+{
+	if (license_civ_PMC_GRP1) && (uniform player == "U_IG_Guerilla3_2")) then 
+	{
+		player setObjectTextureGlobal[0,"textures\PMC\GRP1\PMC.paa"];
+	};
+};
