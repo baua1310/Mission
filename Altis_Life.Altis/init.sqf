@@ -15,10 +15,5 @@ life_versionInfo = "Altis Life RPG v3.1.4.8";
 [] execVM "scripts\teargas.sqf";
 [] execVM "scripts\reminder.sqf";
 [] execVM "scripts\teargasGL.sqf";
-[] execVM "scripts\drugfield.sqf";
-
-if (isServer) then {
-null = [5, "scripts"] execVM "scripts\helipad_lights\helipad_light_auto.sqf";	
-};
 
 StartProgress = true;
