@@ -40,6 +40,11 @@ switch (_side) do
 			_return pushBack["reb_spawn_1","Rebel Outpost 1","\a3\ui_f\data\map\MapControl\watertower_ca.paa"];
 			_return pushBack["reb_spawn_2","Rebel Outpost 2","\a3\ui_f\data\map\MapControl\watertower_ca.paa"];
 		};
+		if(license_civ_pmc && playerSide == civilian) then 
+		{
+			_return pushBack["pmc_spawn","PMC Base","\a3\ui_f\data\map\MapControl\watertower_ca.paa"];
+			_return pushBack["pmc_spawn_2","PMC Outpost","\a3\ui_f\data\map\MapControl\watertower_ca.paa"];
+		};
 
 		
 		if(count life_houses > 0) then {
