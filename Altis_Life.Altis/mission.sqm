@@ -3550,14 +3550,14 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={12828.753,87.443466,16695.477};
-					azimut=-53.203602;
+					position[]={14286.347,4.9085927,13030.876};
+					azimut=-87.5298;
 					id=212;
 					side="CIV";
 					vehicle="C_man_1";
 					leader=1;
 					skill=0.60000002;
-					init="this allowDamage false;  this enableSimulation false;    this addAction[format[""%1 ($%2)"",[""license_civ_PMC""] call life_fnc_varToStr,[([""PMC""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""PMC"",0,false,false,"""",' !license_civ_PMC && playerSide == civilian '];    this addAction[""PMC Store"",life_fnc_weaponShopMenu,""PMC"",0,false,false,"""",' license_civ_PMC && playerSide == civilian'];    this setVariable[""realname"",""PMC Shop""]; this enableSimulation false; this allowDamage false;   this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""pmc_car_2"";  }];    this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];  this addAction[""PMC Car Shop"",life_fnc_vehicleShopMenu,[""PMC"",civilian,[""pmc_car_1"",""pmc_car_2""],""PMC"",""PMC Auto's & Co""]]; ";
+					init="this allowDamage false;  this enableSimulation false;      this addAction[format[""%1 ($%2)"",[""license_civ_PMC""] call life_fnc_varToStr,[([""PMC""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""PMC"",0,false,false,"""",' !license_civ_PMC && playerSide == civilian '];    this addAction[""PMC Store"",life_fnc_weaponShopMenu,""PMC"",0,false,false,"""",' license_civ_PMC && playerSide == civilian'];  this setVariable[""realname"",""PMC Shop""];   this addAction[""Vehicle Garage"",  {   [[getPlayerUID player,playerSide,""Car"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP; life_garage_type = ""Car"";   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""pmc_car_2"";  }];      this addAction[""Store vehicle in Garage"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store'];    this addAction[""PMC Car Shop"",life_fnc_vehicleShopMenu,[""PMC_car"",civilian,[""pmc_car_1"",""pmc_car_2""],""pmc"",""PMC Auto's & Co""]];   ";
 				};
 			};
 		};
@@ -18967,7 +18967,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=215;
+		items=229;
 		class Item0
 		{
 			position[]={8459.6777,104.56568,25131.203};
@@ -19637,7 +19637,7 @@ class Mission
 		};
 		class Item84
 		{
-			position[]={11556.398,77.697838,7048.0737};
+			position[]={11555.623,77.8778,7049.0825};
 			name="weed_1";
 			text="Weed Field";
 			type="mil_dot";
@@ -20652,14 +20652,104 @@ class Mission
 		};
 		class Item213
 		{
-			position[]={12829.379,86.334091,16731.895};
+			position[]={14252.448,4.5491824,13021.752};
 			name="pmc_car_1";
 			type="Empty";
+			angle=-6.4146695;
 		};
 		class Item214
 		{
-			position[]={12850.298,85.689095,16737.699};
+			position[]={14251.728,3.6721303,13043.452};
 			name="pmc_car_2";
+			type="Empty";
+			angle=2.5682299;
+		};
+		class Item215
+		{
+			position[]={11556.507,77.795815,7048.8564};
+			name="weed_area";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorWhite";
+			a=100;
+			b=100;
+		};
+		class Item216
+		{
+			position[]={5910.4141,220.77916,20201.268};
+			name="dmcoke1";
+			type="Empty";
+		};
+		class Item217
+		{
+			position[]={13118.998,77.458069,21466.051};
+			name="dmcoke2";
+			type="Empty";
+		};
+		class Item218
+		{
+			position[]={24062.105,11.24353,15758.543};
+			name="dmcoke3";
+			type="Empty";
+		};
+		class Item219
+		{
+			position[]={19676.91,51.970264,6349.8232};
+			name="dmcoke4";
+			type="Empty";
+		};
+		class Item220
+		{
+			position[]={11592.487,17.150351,9609.5781};
+			name="dmheroin1";
+			type="Empty";
+		};
+		class Item221
+		{
+			position[]={7578.4067,30.859657,12144.149};
+			name="dmheroin2";
+			type="Empty";
+		};
+		class Item222
+		{
+			position[]={4915.9971,36.42057,17138.746};
+			name="dmheroin3";
+			type="Empty";
+		};
+		class Item223
+		{
+			position[]={11102.451,88.302559,19377.256};
+			name="dmheroin4";
+			type="Empty";
+		};
+		class Item224
+		{
+			position[]={9968.3105,11.564729,9700.1738};
+			name="dmweed1";
+			type="Empty";
+		};
+		class Item225
+		{
+			position[]={12411.798,27.741133,13250.035};
+			name="dmweed2";
+			type="Empty";
+		};
+		class Item226
+		{
+			position[]={26069.574,47.055023,22622.918};
+			name="dmweed3";
+			type="Empty";
+		};
+		class Item227
+		{
+			position[]={8584.415,67.818314,15112.328};
+			name="dmweed4";
+			type="Empty";
+		};
+		class Item228
+		{
+			position[]={14280.933,4.7433791,13030.848};
+			name="PMC_Base";
 			type="Empty";
 		};
 	};
