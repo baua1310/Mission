@@ -2264,8 +2264,9 @@ class Mission
 				};
 				class Item13
 				{
-					position[]={6816.9292,39.536716,15458.276};
-					azimut=-234.97621;
+					position[]={6797.9219,41.197578,15581.549};
+					azimut=-91.510902;
+					offsetY=0.5;
 					special="NONE";
 					id=109;
 					side="CIV";
@@ -3528,9 +3529,9 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={16176.2,24.470013,17357.852};
-					azimut=-204.19577;
-					offsetY=0.69999999;
+					position[]={16110.873,21.742737,17263.037};
+					azimut=-329.052;
+					offsetY=3.3;
 					special="NONE";
 					id=211;
 					side="CIV";
@@ -19388,12 +19389,12 @@ class Mission
 		};
 		class Item53
 		{
-			position[]={6816.6724,39.536869,15458.095};
+			position[]={6797.9438,41.199326,15581.71};
 			name="Dealer_1";
 			text="Drug Dealer";
 			type="mil_dot";
 			colorName="ColorOrange";
-			angle=-62.015293;
+			angle=-64.30677;
 		};
 		class Item54
 		{
@@ -20629,12 +20630,12 @@ class Mission
 		};
 		class Item208
 		{
-			position[]={16176.143,24.469727,17357.828};
+			position[]={16110.842,21.742664,17263.057};
 			name="Dealer_1_4";
 			text="Drug Dealer";
 			type="mil_dot";
 			colorName="ColorOrange";
-			angle=-74.601913;
+			angle=-199.45874;
 		};
 		class Item209
 		{
