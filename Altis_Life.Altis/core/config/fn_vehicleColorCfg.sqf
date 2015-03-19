@@ -37,7 +37,15 @@ switch (_vehicle) do
 			["textures\cop\AthiraCopHatchback.paa","cop"]
 		];
 	};
-		
+
+	case "B_G_Offroad_01_F":
+	{
+		_ret = 
+		[
+			["textures\PMC\pmc_car1.paa", "PMC"]
+		];
+	};
+	
 	case "C_Offroad_01_F":
 	{
 		_ret = 
@@ -50,7 +58,6 @@ switch (_vehicle) do
 			["\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE05_CO.paa","civ"],
 			["#(ai,64,64,1)Fresnel(0.3,3)","fed"],
 			["textures\cop\met_police_offroader.paa","cop"],
-			["textures\PMC\pmc_car1.paa","pmc"],
 			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"]
 		];
 	};
@@ -82,7 +89,8 @@ switch (_vehicle) do
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_03_co.paa","civ"],
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa","civ"],
 			["textures\cop\met_police_suv_blue.paa","cop"],
-			["textures\med\paramedic_suv.paa","med"]
+			["textures\med\paramedic_suv.paa","med"],
+			["textures\civ\space_suv.jpg","civ"]
 		];
 	};
 	
@@ -217,6 +225,14 @@ switch (_vehicle) do
 		_ret = 
 		[
 			["#(argb,8,8,3)color(0.05,0.05,0.05,1)","fed"]
+		];
+	};
+	
+	case "O_MRAP_02_F":
+	{
+		_ret = 
+		[
+			["textures\PMC\ifrit_camoGreen_body.paa","pmc","textures\PMC\ifrit_camoGreen_back.paa"]
 		];
 	};
 	

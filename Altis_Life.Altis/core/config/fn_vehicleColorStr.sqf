@@ -72,6 +72,7 @@ switch (_vehicle) do
 			case 3: {_color = "Orange";};
 			case 4: {_color = "Cop";};
 			case 5: {_color = "Medic";};
+			case 6: {_color = "Space";};
 		};
 	};
 	
@@ -93,6 +94,14 @@ switch (_vehicle) do
 			case 1: {_color = "Red"};
 		};
 	};
+	
+	case "O_MRAP_02_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "PMC - Camo Green"};
+		};
+	};	
 	
 	case "C_Van_01_fuel_F":
 	{
@@ -138,6 +147,14 @@ switch (_vehicle) do
 			case 12: {_color = "Waves Blue"};
 			case 13: {_color = "Rebel Digital"};
 			case 14: {_color = "EMS White"};
+		};
+	};
+	
+	case "B_G_Offroad_01_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "PMC"};
 		};
 	};
 

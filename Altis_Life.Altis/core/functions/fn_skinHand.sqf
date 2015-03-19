@@ -6,7 +6,7 @@
 
 if (playerSide == civilian) then 
 {
-	if (license_civ_PMC) && (uniform player == "U_IG_Guerilla3_2") then 
+	if ((license_civ_PMC) && (uniform player == "U_IG_Guerilla3_2")) then 
 	{
 		player setObjectTextureGlobal[0,"textures\PMC\PMC.paa"];
 	};

@@ -1,5 +1,5 @@
 /*
-	File: fn_clothing_reb.sqf
+	File: fn_clothing_PMC.sqf
 	Author: Bryan "Tonic" Boardwine
 	
 	Description:
@@ -18,7 +18,7 @@ switch (_filter) do
 	case 0:
 	{
 		[
-			["U_IG_Guerilla3_2","PMC Uniform",5000]
+			["U_IG_Guerilla3_2",nil,5000]
 		];
 	};
 	

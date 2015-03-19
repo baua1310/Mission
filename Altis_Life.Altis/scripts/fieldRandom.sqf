@@ -1,6 +1,6 @@
 /*
 	Randomises The locations Of The Fields For Altis Life Based Of A Script From Army Storm Gaming
-	By: Cammygames & Origanl Author
+	Author: Cammygames 
 */
 cokeFeilds = ["dmcoke1","dmcoke2","dmcoke3","dmcoke4"];
 heroinFeilds = ["dmheroin1","dmheroin2","dmheroin3","dmheroin4"];

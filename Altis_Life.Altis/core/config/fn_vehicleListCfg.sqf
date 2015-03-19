@@ -72,7 +72,7 @@ switch (_shop) do
 		_return =
 		[
 			["B_Quadbike_01_F",2500],
-			["B_G_Offroad_01_F",15000],
+			["O_G_Offroad_01_F",15000],
 			["O_MRAP_02_F",800000],
 			["B_Heli_Light_01_F",355000],
 			["O_Heli_Transport_04_bench_F",1600000]
@@ -81,15 +81,17 @@ switch (_shop) do
 		if(license_civ_rebel) then
 		{
 			_return pushBack
-			["B_G_Offroad_01_armed_F",750000];
+			["O_G_Offroad_01_armed_F",750000];
 		};
 	};
 	
-	case "PMC":
+	case "PMC_car":
 	{		
 		_return =
 		[
-			["B_G_Offroad_01_F",15000]
+			["B_Quadbike_01_F",2500],
+			["B_G_Offroad_01_F",15000],
+			["O_MRAP_02_F",800000]
 		];
 	};
 	

@@ -338,17 +338,27 @@ switch(_shop) do
 			{
 				["PMC CORP",
 					[
-						["hgun_Rook40_F",nil,8500],
-						["hgun_Pistol_heavy_02_F",nil,9850],
-						["hgun_ACPC2_F",nil,11500],
-						["I_G_Soldier_lite_F",nil,50000],
-						["hgun_PDW2000_F",nil,20000],
-						["optic_ACO_grn_smg",nil,2500],
-						["V_Rangemaster_belt",nil,4900],
-						["16Rnd_9x21_Mag",nil,25],
-						["9Rnd_45ACP_Mag",nil,45],
-						["6Rnd_45ACP_Cylinder",nil,50],
-						["30Rnd_9x21_Mag",nil,75]
+						["Binocular",nil,150],
+						["ItemGPS",nil,100],
+						["ToolKit",nil,15000],
+						["FirstAidKit",nil,150],
+						["NVGoggles",nil,2000],
+						["Chemlight_red",nil,300],
+						["Chemlight_yellow",nil,300],
+						["Chemlight_green",nil,300],
+						["Chemlight_blue",nil,300],
+						["arifle_MXC_Black_F",nil,195000],
+						["30Rnd_65x39_caseless_mag",nil,250],
+						["arifle_MX_SW_Black_F",nil,350000],
+						["100Rnd_65x39_caseless_mag",nil,450],
+						["hgun_PDW2000_Holo_snds_F",nil,99090],
+						["30Rnd_9x21_Mag",nil,100],
+						["SMG_01_Holo_pointer_snds_F",nil,145000],
+						["30Rnd_45ACP_Mag_SMG_01",nil,120],
+						["hgun_Pistol_heavy_01_MRD_F",nil,75000],
+						["11Rnd_45ACP_Mag",nil,50],
+						["hgun_Rook40_F",nil,74000],
+						["30Rnd_9x21_Mag",nil,50]
 					]
 				];
 			};
