@@ -90,7 +90,8 @@ switch (_vehicle) do
 			["\a3\soft_f_gamma\SUV_01\Data\suv_01_ext_04_co.paa","civ"],
 			["textures\cop\met_police_suv_blue.paa","cop"],
 			["textures\med\paramedic_suv.paa","med"],
-			["textures\civ\space_suv.jpg","civ"]
+			["textures\civ\space_suv.jpg","civ"],
+			["textures\civ\unicorn_suv.paa","civ"]
 		];
 	};
 	

@@ -142,6 +142,8 @@ switch(_shop) do
 						["SmokeShellgreen","Tear Gas",1800],
 						["arifle_sdar_F","Taser Rifle",4000],
 						["SMG_02_F",nil,10000],
+						["srifle_LRR_SOS_F",nil,450000],
+						["7Rnd_408_Mag",nil,250],
 						["SMG_01_Holo_pointer_snds_F",nil,13000],
 						["arifle_MX_SW_Black_F",nil,35000],
 						["LMG_Mk200_pointer_F",nill,48000],
@@ -174,6 +176,8 @@ switch(_shop) do
 						["arifle_sdar_F","Taser Rifle",4000],
 						["SMG_02_F",nil,10000],
 						["SMG_01_Holo_pointer_snds_F",nil,13000],
+						["srifle_LRR_SOS_F",nil,450000],
+						["7Rnd_408_Mag",nil,250],
 						["arifle_MX_SW_Black_F",nil,35000],
 						["hgun_P07_snds_F","Stun Pistol",0],
 						["hgun_P07_F",nil,7500],
@@ -205,6 +209,8 @@ switch(_shop) do
 						["arifle_MXM_Black_F",nil,35000],
 						["arifle_MX_GL_Black_F",nil,40000],
 						["srifle_EBR_F",nil,100000],
+						["srifle_LRR_SOS_F",nil,450000],
+						["7Rnd_408_Mag",nil,250],
 						["optic_Arco",nil,2500],
 						["muzzle_snds_H",nil,2750],
 						["30Rnd_65x39_caseless_mag",nil,100],
@@ -232,6 +238,37 @@ switch(_shop) do
 			
 			};
 		};
+	};
+	
+	case "attachments":
+	{
+		switch (true) do 
+		{
+			default {
+				["Weapon Attachments",
+					[
+						["acc_flashlight",nil,2000],
+						["acc_pointer_IR",nil,2000],
+						["optic_Aco",nil,2000],
+						["optic_ACO_grn",nil,2000],
+						["optic_ACO_grn_smg",nil,2000],
+						["optic_Aco_smg",nil,2000],
+						["optic_Arco",nil,2000],
+						["optic_Hamr",nil,2000],
+						["optic_Holosight",nil,2000],
+						["optic_Holosight_smg",nil,2000],
+						["optic_MRCO",nil,2000],
+						["optic_SOS",nil,2000],
+						["muzzle_snds_acp",nil,2000],
+						["muzzle_snds_B",nil,2000],
+						["muzzle_snds_H",nil,2000],
+						["muzzle_snds_H_MG",nil,2000],
+						["muzzle_snds_L",nil,2000],
+						["muzzle_snds_M",nil,2000]
+					]
+				];
+			};
+		};	
 	};
 	
 	case "med_basic":
@@ -347,6 +384,8 @@ switch(_shop) do
 						["Chemlight_yellow",nil,300],
 						["Chemlight_green",nil,300],
 						["Chemlight_blue",nil,300],
+						["srifle_LRR_SOS_F",nil,450000],
+						["7Rnd_408_Mag",nil,250],
 						["arifle_MXC_Black_F",nil,195000],
 						["30Rnd_65x39_caseless_mag",nil,250],
 						["arifle_MX_SW_Black_F",nil,350000],

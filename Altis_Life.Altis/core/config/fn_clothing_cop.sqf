@@ -20,30 +20,12 @@ switch (_filter) do
 	case 0:
 	{
 		_ret pushBack ["U_B_CombatUniform_mcam","Cop Uniform",25];
-		if(__GETC__(life_coplevel) > 1) then
-		{
-			_ret pushBack ["U_B_CombatUniform_mcam_tshirt",nil,350];
-			_ret pushBack ["U_B_survival_uniform",nil,1250];
-		};
-		if(__GETC__(life_coplevel) > 2) then
-		{
-			_ret pushBack ["U_B_CombatUniform_mcam_worn",nil,550];
-		};
 	};
 	
 	//Hats
 	case 1:
 	{
-		if(__GETC__(life_coplevel) > 1) then
-		{
-			_ret pushBack ["H_Cap_police",nil,75];
-			_ret pushBack ["H_Booniehat_mcamo",nil,120];
-		};
-		
-		if(__GETC__(life_coplevel) > 2) then
-		{
-			_ret pushBack ["H_MilCap_mcamo",nil,100];
-		};
+		_ret pushBack ["H_Cap_police",nil,75];
 	};
 	
 	//Glasses
@@ -67,7 +49,6 @@ switch (_filter) do
 	//Vest
 	case 3:
 	{
-		_ret pushBack ["V_Rangemaster_belt",nil,800];
 		_ret pushBack ["V_TacVest_blk_POLICE",nil,1500];
 	};
 	
