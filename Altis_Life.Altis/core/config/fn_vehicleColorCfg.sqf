@@ -33,8 +33,7 @@ switch (_vehicle) do
 			[_path + "hatchback_01_ext_sport04_co.paa","civ"],
 			[_path + "hatchback_01_ext_sport05_co.paa","civ"],
 			[_path + "hatchback_01_ext_sport06_co.paa","civ"],
-			["textures\cop\KavalaCopHatchback.paa","cop"],
-			["textures\cop\AthiraCopHatchback.paa","cop"]
+			["textures\cop\met_police_hatchback.paa","cop"]
 		];
 	};
 

@@ -42,9 +42,8 @@ switch (_vehicle) do
 			case 5: {_color = "White"};
 			case 6: {_color = "Grey"};
 			case 7: {_color = "Black"};
-			case 8: {_color = "Kavala PD"};
+			case 8: {_color = "Police"};
 			case 9: {_color = "Medic"};
-			case 10: {_color = "Athira PD"};
 		};
 	};
 	
