@@ -94,12 +94,20 @@ switch (_vehicle) do
 			case 1: {_color = "Red"};
 		};
 	};
+
+	case "I_MRAP_03_F":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "PMC"};
+		};
+	};
 	
 	case "O_MRAP_02_F":
 	{
 		switch (_index) do
 		{
-			case 0: {_color = "PMC - Camo Green"};
+			case 0: {_color = "Camo Green"};
 		};
 	};	
 	

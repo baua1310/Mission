@@ -228,11 +228,19 @@ switch (_vehicle) do
 		];
 	};
 	
+	case "I_MRAP_03_F":
+	{
+		_ret = 
+		[
+			["textures\PMC\TRG_strider_urban.jpg","PMC"]
+		];	
+	};
+	
 	case "O_MRAP_02_F":
 	{
 		_ret = 
 		[
-			["textures\PMC\ifrit_camoGreen_body.paa","pmc","textures\PMC\ifrit_camoGreen_back.paa"]
+			["textures\civ\ifrit_camoGreen_body.paa","civ","textures\civ\ifrit_camoGreen_back.paa"]
 		];
 	};
 	
