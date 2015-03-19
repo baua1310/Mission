@@ -169,6 +169,7 @@ class Life_Client_Core
 		class clothing_reb {};
 		class clothing_dive {};
 		class clothing_kart {};
+		class clothing_PMC {};
 	};
 
 	class Player_Menu
