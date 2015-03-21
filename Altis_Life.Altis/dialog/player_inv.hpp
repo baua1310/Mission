@@ -1,4 +1,4 @@
-	#include "player_sys.sqf"
+#include "player_sys.sqf"
 
 class playerSettings {
 
