@@ -10,6 +10,10 @@ if (playerSide == civilian) then
 	{
 		player setObjectTextureGlobal[0,"textures\PMC\PMC.paa"];
 	};
+	if ((license_civ_PMC) && (uniform player == "U_B_CombatUniform_mcam")) then 
+	{
+		player setObjectTextureGlobal[0,"textures\PMC\TRG_assault_urban.jpg"];
+	};
 };
 
 if(playerSide == west) then 

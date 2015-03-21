@@ -1,6 +1,7 @@
 /*
-	Randomises The locations Of The Fields For Altis Life Based Of A Script From Army Storm Gaming
-	Author: Cammygames 
+	Author: Cammygames
+	Description: Cycles the locations of the drug fields between 4 pre 
+					defined locations you know to mix things up a bit
 */
 cokeFeilds = ["dmcoke1","dmcoke2","dmcoke3","dmcoke4"];
 heroinFeilds = ["dmheroin1","dmheroin2","dmheroin3","dmheroin4"];
@@ -10,7 +11,8 @@ while {true} do
 {
 	// load Coke Fields
 	_sCount = count cokeFeilds;
-	for "_x" from 0 to 1 do {
+	for "_x" from 0 to 1 do 
+	{
 		_sSelect = floor(random _sCount);
 		_item = cokeFeilds select _sSelect;
 		"coke_area" setMarkerPos getMarkerPos _item;
@@ -19,7 +21,8 @@ while {true} do
 
 	// load Heroin Fields
 	_sCount = count heroinFeilds;
-	for "_x" from 0 to 1 do {
+	for "_x" from 0 to 1 do 
+	{
 		_sSelect = floor(random _sCount);
 		_item = heroinFeilds select _sSelect;
 		"heroin_area" setMarkerPos getMarkerPos _item;
@@ -28,7 +31,8 @@ while {true} do
 
 	// load Weed Feilds
 	_sCount = count heroinFeilds;
-	for "_x" from 0 to 1 do {
+	for "_x" from 0 to 1 do 
+	{
 		_sSelect = floor(random _sCount);
 		_item = heroinFeilds select _sSelect;
 		"weed_area" setMarkerPos getMarkerPos _item;

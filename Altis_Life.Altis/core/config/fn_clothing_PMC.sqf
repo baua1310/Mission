@@ -18,7 +18,8 @@ switch (_filter) do
 	case 0:
 	{
 		[
-			["U_IG_Guerilla3_2",nil,5000]
+			["U_IG_Guerilla3_2",nil,5000],
+			["U_B_CombatUniform_mcam",nil,8000]
 		];
 	};
 	

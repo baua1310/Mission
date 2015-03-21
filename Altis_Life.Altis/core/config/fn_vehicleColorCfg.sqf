@@ -232,7 +232,7 @@ switch (_vehicle) do
 	{
 		_ret = 
 		[
-			["textures\PMC\TRG_strider_urban.jpg","PMC"]
+			["textures\PMC\TRG_strider_urban.jpg","pmc"]
 		];	
 	};
 	
@@ -240,7 +240,9 @@ switch (_vehicle) do
 	{
 		_ret = 
 		[
-			["textures\civ\ifrit_camoGreen_body.paa","civ","textures\civ\ifrit_camoGreen_back.paa"]
+			["textures\civ\ifrit_camoGreen_body.paa","reb","textures\civ\ifrit_camoGreen_back.paa"],
+			["textures\civ\ifrit_camoRed_body.paa","reb","textures\civ\ifrit_camoRed_back.paa"]
+		
 		];
 	};
 	
